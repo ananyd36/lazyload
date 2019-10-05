@@ -385,6 +385,7 @@ LazyLoad = (function (doc) {
     js: function (urls, callback, obj, context) {
       load('js', urls, callback, obj, context);
     }
+    console.log("Hello shantnu");
 
   };
 })(this.document);
